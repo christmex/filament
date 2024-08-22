@@ -421,7 +421,7 @@ protected function getHeaderActions(): array
 You may remove all actions from the form by overriding the `getFormActions()` method to return an empty array:
 
 ```php
-protected function getFormActions(): array
+public function getFormActions(): array
 {
     return [];
 }
